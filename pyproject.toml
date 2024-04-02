@@ -2,7 +2,7 @@
 name = "deploy-functions-oidc-template"
 version = "1.1.0"
 description = "Cognite Functions template for OIDC projects"
-authors = ["hakon.treider@cognite.com"]
+authors = ["Hakon Treider <hakon.treider@cognite.com>"]
 
 [tool.poetry.dependencies]
 python = "~3.8"
@@ -12,6 +12,7 @@ pandas = "*"
 pydantic = "*"
 ujson = "*"
 retry = "*"
+pyyaml = "^6.0.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
